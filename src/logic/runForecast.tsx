@@ -22,7 +22,7 @@ const ParentComponent: React.FC = () => {
 
   return (
     <>
-      <button className='border-4' onClick={handleReset}>Check Weather</button>
+      <button className="checkWeather spacingBlock" onClick={handleReset}>Check Weather</button>
       { <FetchData url={url} key={key} /> }
     </>
 

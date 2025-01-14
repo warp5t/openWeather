@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../tailwind.css';
+import '../styles/root.css';
+
 type MessageInput = { message?: string };
 
 export let cityCertain: string = '';
@@ -13,11 +15,11 @@ export function InputCity({ message }: MessageInput) {
   };
 
   return (
-    <div className='flex flex-col items-center'>
-      <div>
-        <input type="text" value={inputValue} onChange={handleInputChange} />
+    <div className="flex flex-col items-center">
+      <div className="spacingBlock">
+        <input className="inputStyle" type="text" placeholder="Enter city" value={inputValue} onChange={handleInputChange} />
       </div>
-      <div>
+      <div className="spacingBlock subscrMessage">
         If a name of the city has several location you should add abbreviation throught comma.
       </div>
     </div>

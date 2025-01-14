@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { WeatherResponse, Main } from '../logic/typing/response';
+import '../styles/root.css';
 
 import wind from '../images/wind.png'
 import therm from '../images/thermometer.png'
@@ -78,7 +79,7 @@ const FetchData: React.FC<FetchDataProps> = ({ url }) => {
             <div className='flex flex-col items-center'>
               <h2 className='text-xl'>Main Metrics:</h2>
               <div className='flex items-end w-full justify-around'>
-                <div className='flex items-end'>
+                <div className='flex items-end blockIcons'>
                 <div className='mr-[40px]'>
                    <div>
                     <img className='w-[50px]' src={therm} alt="icon" />
