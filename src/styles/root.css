@@ -22,7 +22,7 @@
 
 .blockIcons {
     display: none;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 @media(max-width:510px) {
     .blockIcons {
