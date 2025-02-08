@@ -1,5 +1,7 @@
 .root {
     padding: 2%;
+    width: 100%;
+    min-height: 100vh;
     background-color: rgb(159, 201, 255);
 }
 
