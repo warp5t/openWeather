@@ -20,7 +20,7 @@ export function InputCity({ message }: MessageInput) {
         <input className="inputStyle" type="text" placeholder="Enter city" value={inputValue} onChange={handleInputChange} />
       </div>
       <div className="spacingBlock subscrMessage">
-        If a name of the city has several location you should add abbreviation throught comma.
+        If a name of the city has several location you should add abbreviation throught comma. london,us or london,uk
       </div>
     </div>
   );

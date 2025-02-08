@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.wrap-main {
+/* .wrap-main {
   background-color: rgb(159, 201, 255);
-  padding: 2%;
-}
+} */
 .spacingBlock {
   margin: 8px 0;
 }
